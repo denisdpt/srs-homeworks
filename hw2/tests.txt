@@ -1,0 +1,14 @@
+(venv) PS C:\Users\Denis\vs-code\srs\hw2> python main.py https://habr.com/ru/articles/919204/ https://habr.com/ru/articles/919305/
+Данные сохранены для https://habr.com/ru/articles/919204/
+Ошибка обработки https://habr.com/ru/articles/919305/: Article `download()` failed with 404 Client Error: Not Found for url: https://habr.com/ru/articles/919305/ on URL https://habr.com/ru/articles/919305/
+(venv) PS C:\Users\Denis\vs-code\srs\hw2> 
+
+// Если что, https://habr.com/ru/articles/919305/ - несуществующая статья, добавил специально, чтобы показать, что не появляется ошибка, а обрабатывется данный случай
+
+
+----------
+протестил второй раз после неудачной состыковки с дз4, вроде корректно отрабатывает:
+
+(venv) PS C:\Users\Denis\vs-code\srs\hw2> python main.py https://habr.com/ru/companies/timeweb/articles/919536/
+Данные сохранены для https://habr.com/ru/companies/timeweb/articles/919536/
+(venv) PS C:\Users\Denis\vs-code\srs\hw2>

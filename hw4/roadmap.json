@@ -1,0 +1,64 @@
+{
+  "domain": "Machine Learning",
+  "overview": "Ключевые навыки и технологии для изучения машинного обучения от основ до продакшен-решений.",
+  "topics": [
+    {
+      "id": 1,
+      "title": "Основы программирования и математики",
+      "description": "Python, линейная алгебра, статистика, теория вероятностей.",
+      "keywords": ["Python", "NumPy", "матрицы", "градиенты", "распределения", "ИИ","API","автоматизация"],
+      "subtopics": [
+        {"title": "Python и библиотеки", "keywords": ["NumPy", "Pandas", "Matplotlib"]},
+        {"title": "Линейная алгебра", "keywords": ["векторы", "матрицы", "разложение SVD"]},
+        {"title": "Статистика", "keywords": ["среднее", "дисперсия", "распределения"]},
+        {"title": "Теория вероятностей", "keywords": ["условная вероятность", "биномиальный процесс"]}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Предобработка данных",
+      "description": "Очистка, визуализация, преобразования и инженерия признаков.",
+      "keywords": ["cleaning", "EDA", "feature engineering"],
+      "subtopics": [
+        {"title": "EDA (разведочный анализ)", "keywords": ["графики", "гистограммы", "корреляция"]},
+        {"title": "Обработка пропусков", "keywords": ["удаление", "импутация"]},
+        {"title": "Нормализация и кодирование", "keywords": ["MinMax", "One-Hot", "LabelEncoder"]},
+        {"title": "Инженерия признаков", "keywords": ["полиномиальные фичи", "PCA"]}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Моделирование",
+      "description": "Классические алгоритмы и глубокое обучение.",
+      "keywords": ["регрессия", "деревья", "нейросети"],
+      "subtopics": [
+        {"title": "Линейная и логистическая регрессия", "keywords": ["sklearn", "loss", "градиентный спуск"]},
+        {"title": "Деревья решений и ансамбли", "keywords": ["RandomForest", "XGBoost", "CatBoost"]},
+        {"title": "Введение в нейросети", "keywords": ["Perceptron", "TensorFlow", "PyTorch"]},
+        {"title": "Продвинутые архитектуры", "keywords": ["CNN", "RNN", "Transformers"]}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Оценка и валидация",
+      "description": "Метрики, кросс-валидация, поиск гиперпараметров.",
+      "keywords": ["accuracy", "ROC-AUC", "GridSearch"],
+      "subtopics": [
+        {"title": "Метрики классификации", "keywords": ["precision", "recall", "F1"]},
+        {"title": "Кросс-валидация", "keywords": ["KFold", "StratifiedKFold"]},
+        {"title": "Поиск гиперпараметров", "keywords": ["GridSearchCV", "RandomSearch", "Bayesian Optimization"]}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Деплоймент и продакшен",
+      "description": "Сервисы, контейнеризация, мониторинг.",
+      "keywords": ["Docker", "FastAPI", "MLOps"],
+      "subtopics": [
+        {"title": "REST API для моделей", "keywords": ["FastAPI", "Flask"]},
+        {"title": "Docker и контейнеры", "keywords": ["Dockerfile", "Docker Compose"]},
+        {"title": "CI/CD и мониторинг", "keywords": ["GitHub Actions", "Prometheus"]}
+      ]
+    }
+  ]
+}

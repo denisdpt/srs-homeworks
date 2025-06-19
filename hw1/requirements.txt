@@ -1,0 +1,7 @@
+newspaper3k==0.2.8
+lxml_html_clean==0.4.2
+numpy==1.23.5
+spacy==3.5.0
+ru-core-news-md @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_md-3.5.0/ru_core_news_md-3.5.0.tar.gz
+sentence-transformers==4.1.0
+keybert==0.9.0

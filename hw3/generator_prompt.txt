@@ -1,0 +1,24 @@
+You are an expert in IT education. 
+Generate a structured learning roadmap for the domain "Machine Learning".
+Output must be valid JSON with the following schema:
+{
+  "domain": string,
+  "overview": string,
+  "topics": [
+    {
+      "id": integer,
+      "title": string,
+      "description": string,
+      "keywords": [string],
+      "subtopics": [
+        {"title": string, "keywords": [string]}
+      ]
+    }
+  ]
+}
+For each topic provide:
+- краткое описание (русскими предложениями, 1–2 предложения),
+- список ключевых слов (ключевые технологии и понятия),
+- 3–5 подтем с названиями и их ключевыми словами.
+
+Respond only with JSON.
